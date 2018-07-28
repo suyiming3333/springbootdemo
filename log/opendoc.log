@@ -1,0 +1,40 @@
+2018-07-23 23:06:09.873 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting SpringbootMybatisDemoApplication on 移动苏毅铭 with PID 6216 (F:\gitcode\springboot-mybatis-demo\target\classes started by suyiming in F:\gitcode\springboot-mybatis-demo)
+2018-07-23 23:06:09.941 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-07-23 23:06:10.022 - INFO  [           main] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18f20260: startup date [Mon Jul 23 23:06:10 CST 2018]; root of context hierarchy
+2018-07-23 23:06:11.532 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2018-07-23 23:06:11.552 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-23 23:06:11.565 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-07-23 23:06:11.566 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-23 23:06:11.573 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;E:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\TortoiseGit\bin;E:\Program Files\TortoiseSVN\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\apache-maven-3.3.9\bin;E:\Program Files\Java\jdk1.7.0_80\bin;E:\Program Files\Java\jdk1.7.0_80\jre\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Users\suyiming\AppData\Local\Microsoft\WindowsApps;;.]
+2018-07-23 23:06:11.757 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-07-23 23:06:11.758 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1740 ms
+2018-07-23 23:06:11.973 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-07-23 23:06:11.974 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-07-23 23:06:11.979 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 23:06:11.979 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 23:06:11.980 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 23:06:11.980 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 23:06:11.981 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-07-23 23:06:12.077 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-07-23 23:06:12.380 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2018-07-23 23:06:12.782 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 23:06:13.021 - INFO  [           main] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18f20260: startup date [Mon Jul 23 23:06:10 CST 2018]; root of context hierarchy
+2018-07-23 23:06:13.098 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/user/add],produces=[application/json;charset=UTF-8]}" onto public int com.sym.controller.UserController.addUser(com.sym.model.User)
+2018-07-23 23:06:13.099 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/user/hello],methods=[GET]}" onto public java.lang.Object com.sym.controller.UserController.sayHello()
+2018-07-23 23:06:13.100 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/user/all/{pageNum}/{pageSize}],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.sym.controller.UserController.findAllUser(int,int)
+2018-07-23 23:06:13.103 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 23:06:13.103 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 23:06:13.140 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 23:06:13.140 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 23:06:13.553 - INFO  [           main] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-07-23 23:06:13.555 - INFO  [           main] o.s.j.e.MBeanExporter          : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-07-23 23:06:13.555 - INFO  [           main] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-23 23:06:13.562 - INFO  [           main] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-07-23 23:06:13.563 - INFO  [           main] o.s.j.e.MBeanExporter          : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-07-23 23:06:13.575 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2018-07-23 23:06:13.589 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-07-23 23:06:13.610 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path '/boot'
+2018-07-23 23:06:13.615 - INFO  [           main] o.s.b.StartupInfoLogger        : Started SpringbootMybatisDemoApplication in 4.408 seconds (JVM running for 6.911)
+2018-07-23 23:06:35.914 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 23:06:35.915 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-23 23:06:35.951 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
